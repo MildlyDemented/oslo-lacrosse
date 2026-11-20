@@ -1,0 +1,224 @@
+* {
+    box-sizing: border-box;
+}
+img {
+    max-width:100%;
+    width:auto;
+}
+html, body {
+    margin:0;
+    padding:0;
+    min-height:100%;
+}
+body {
+min-height:100vh;
+display:flex;
+flex-direction:column;
+}
+h1, h2, h3 {
+    font-family:"Century Gothic", sans-serif;
+    font-weight: bold;
+}
+body {
+    font-family:"Calibri", sans-serif;
+}
+main {
+    flex: 1;
+}
+.top {
+width:100%;
+height:200px;
+background-color:rgb(148, 190, 230);
+display:flex;
+justify-content: space-between;
+align-items: center;
+}
+.top img {
+    width:110px;
+    margin-right:120px; 
+}   
+.top h1 {
+    margin-left:60px;
+}
+.Meny {
+   display:flex;
+   justify-content:center;
+   align-items:center;
+   flex-wrap:wrap;
+   gap:40px;
+}
+.Meny a {
+font-size: 20px;
+background-color:rgb(148, 190, 230);
+color:rgb(0, 0, 0);
+border-radius:40px;
+padding:10px 20px;
+text-decoration: none;
+}
+.LacrosseInfo img {
+width:500px;
+height:500px;
+margin-left:30px;
+margin-bottom:40px;
+object-fit:cover;
+float:right; <!-- Bildet går til høyre og lar tekst gå under eller over bildet -->
+margin-left:30px;
+margin-bottom:15px;
+}
+.LacrosseInfo p {
+    font-size:25px;
+    line-height:1.5;
+}
+.LacrosseInfo {
+    padding: 50px 80px;
+}
+.Footer {
+    display:flex;
+    width:100%;
+    min-height:140px;
+    height:auto;
+    background-color:rgb(148, 190, 230);
+    justify-content:space-between;
+    padding:30px 0px;
+    margin-top:auto;   <!-- Putter på hvor mye plass some trenges -->
+    flex-wrap:wrap;
+}
+.Info1 {
+margin-left:25px;
+}
+.Info2 a {
+    display:flex;
+    flex-direction:column;
+    margin-right:1000px;
+}
+.Box1 {
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+    background-color:rgb(148, 190, 230);
+    width:99%;
+    min-height:350px;
+    border-radius:40px;
+    border: 2px solid black;
+    margin-left:5px;
+    flex-wrap:wrap;
+}
+.Box1 img {
+width:100%;
+max-width:300px;
+max-height:300px;
+height:300;
+}
+.Box2 {
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+    background-color:rgb(148, 190, 230);
+    width:99%;
+    min-height:350px;
+    border-radius:40px;
+    border: 2px solid black;
+    margin-left:5px;
+    flex-wrap:wrap; <!-- Gjør sånn at hvis det blir får lite plass går bildet eller teksten under -->
+}
+.Box2 img {
+width:100%;
+max-width:300px;
+max-height:300px;
+height:300;
+ }
+.Box3 {
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    background-color:rgb(148, 190, 230);
+    width:99%;
+    min-height:350px;
+    border-radius:40px;
+    border: 2px solid black;
+    margin-left:5px;
+    flex-wrap:wrap;
+}
+.Box3 img {
+width:100%;
+max-width:300px;
+max-height:300px;
+height:300;
+}
+.Teampic1 {
+display:flex;
+flex-direction:column;
+align-items:center;
+background-color:rgb(148, 190, 230);
+width:100%;
+min-height:800px;
+border-radius:50px;
+border: 2px solid black;
+margin:0 auto;
+font-size:20px;
+line-height:1.5;
+}
+.Teampic1 img {
+    max-height:500px;
+    max-width:1500px;
+    height:auto;
+}
+.TitleM {
+    text-align:center;
+}
+.Map {
+display:flex;
+justify-content:center;
+align-items:center;
+background-color:rgb(148, 190, 230);
+border-radius:50px;
+border:2px solid black;
+height:450px;
+width:100%;
+max-width:1100;
+min-height:450px;
+margin:0 auto; <!-- Opp og ned er null, mens høyre og venstre er auto -->
+}
+.Maps {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    width:100%;
+    max-width:1000px;
+    margin:0 auto;
+    padding:20px;
+    gap:30px;
+}
+.Maps iframe {
+width:100%;
+max-width:800px;
+height:350px;
+max-height:350px;
+}
+.Map1, .Map2 {
+    display:flex;
+flex:1;
+}
+.Forms {
+    display:flex;
+    justify-content:center;
+}
+.Forms form {
+    display:flex;
+    flex-direction:column;
+    align-items:flex-start;
+    max-width:400px;
+    width:auto;
+    background-color:rgb(148, 190, 230);
+    border-radius:9px;
+}
+.Tabs {
+display:flex;
+justify-content:space-around;
+background-color:rgb(148, 190, 230);
+border-radius:50px;
+min-height:500px;
+width:90%;
+margin:0 auto;
+flex-wrap:wrap;
+}
